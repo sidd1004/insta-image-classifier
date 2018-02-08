@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Oleo Script', cursive;
+}
+
+header {
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, .0975);
+}
+
+.page-content {
+    background-color: #f9f9f9;
+    height: 100vh;
+    padding: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+.each-image {
+    display: inline-block;
+    padding: 20px;
+    object-fit: cover;
+    width: 230px;
+    height: 230px;
+}
